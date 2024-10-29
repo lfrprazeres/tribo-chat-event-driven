@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Luiz",
+      "email": "luiz@email.com",
+      "isLogged": true,
+      "password": "123",
+      "id": 1,
+      "chats": [
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            1,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 1,
+          "id": 1
+        }
+      ],
+      "image": "https://avatars.githubusercontent.com/u/94445061"
+    },
+    {
+      "name": "Marcia",
+      "email": "marcia@email.com",
+      "isLogged": true,
+      "password": "123",
+      "id": 2,
+      "image": "https://avatars.githubusercontent.com/u/38763801",
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            1,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 1
+        }
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "type": "chat",
+      "participants": [
+        1,
+        2
+      ],
+      "messages": [
+        {
+          "text": "Olá Luiz, tudo bem? Gostaria de saber sobre o código da aula de hoje, pode me ajudar?",
+          "date": "14:00",
+          "name": "Márcia",
+          "userId": 2
+        }
+      ]
+    }
+  ]
+}
