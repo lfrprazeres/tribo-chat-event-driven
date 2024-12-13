@@ -2,10 +2,21 @@ import { useEffect, useState } from 'react';
 import { userContext } from './context';
 import useChat from 'hooks/chat';
 import fetch from 'config/fetchInstance';
+import { socket } from 'config/socket';
 
 export const UserProvider = ({ children }) => {
   const [data, setData] = useState(null);
   const { data: chatData } = useChat();
+
+  useEffect(() => {
+    socket.connect();
+    socket.on('nova mensagem', (id) => {
+      console.log('nova mensagem!!!', id);
+    })
+    return () => {
+      socket.disconnect();
+    }
+  }, [])
 
   useEffect(() => {
     const currentChatIndex = data?.chats.findIndex(chat => chat.id === chatData?.id);

@@ -3,7 +3,7 @@ import UserController from '../controllers/userController.js';
 
 io.on('connection', (socket) => {
   const userController = UserController();
-
+  io.emit('nova mensagem', socket.id);
   socket.on('disconnect', () => {
     io.emit('user disconnected');
     const id = null;
