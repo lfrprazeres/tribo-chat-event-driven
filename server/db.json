@@ -16,7 +16,31 @@
           ],
           "type": "chat",
           "unreadMessages": 0,
-          "id": 1
+          "id": 1,
+          "messages": [
+            {
+              "text": "Olá Luiz, tudo bem? Gostaria de saber sobre o código da aula de hoje, pode me ajudar?",
+              "date": "14:00",
+              "name": "Márcia",
+              "userId": 2
+            },
+            {
+              "userId": 1,
+              "text": "teste",
+              "name": "Luiz",
+              "date": "18:16",
+              "id": 1,
+              "otherUserId": 2
+            },
+            {
+              "userId": 1,
+              "text": "",
+              "name": "Luiz",
+              "date": "18:16",
+              "id": 1,
+              "otherUserId": 2
+            }
+          ]
         },
         {
           "name": "joao",
@@ -25,7 +49,18 @@
             3
           ],
           "type": "chat",
-          "unreadMessages": 0
+          "unreadMessages": 0,
+          "id": 2
+        },
+        {
+          "name": "joao",
+          "participants": [
+            3,
+            1
+          ],
+          "unreadMessages": 0,
+          "type": "chat",
+          "id": 2
         }
       ],
       "image": "https://avatars.githubusercontent.com/u/94445061"
@@ -57,6 +92,16 @@
           ],
           "type": "chat",
           "unreadMessages": 0
+        },
+        {
+          "name": "joao",
+          "participants": [
+            3,
+            2
+          ],
+          "unreadMessages": 0,
+          "type": "chat",
+          "id": 2
         }
       ]
     },
@@ -65,7 +110,30 @@
       "email": "joao@email.com",
       "password": "123",
       "imagem": "https://avatars.githubusercontent.com/u/20377093",
-      "chats": [],
+      "chats": [
+        {
+          "name": "Luiz",
+          "image": "https://avatars.githubusercontent.com/u/94445061",
+          "participants": [
+            3,
+            1
+          ],
+          "type": "chat",
+          "unreadMessages": 1,
+          "id": 2
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            3,
+            2
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": 2
+        }
+      ],
       "id": 3
     }
   ],
@@ -101,6 +169,33 @@
           "otherUserId": 2
         }
       ]
+    },
+    {
+      "id": 2,
+      "type": "chat",
+      "participants": [
+        3,
+        1
+      ],
+      "messages": [
+        {
+          "userId": 1,
+          "text": "olá joão!",
+          "name": "Luiz",
+          "date": "18:31",
+          "id": 2,
+          "otherUserId": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "chat",
+      "participants": [
+        3,
+        2
+      ],
+      "messages": []
     }
   ]
 }
