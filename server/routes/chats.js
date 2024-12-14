@@ -74,7 +74,7 @@ chatsRouter.post('/:id/messages', (req, res) => {
       delete currentOtherUser.chats[otherUserChatIndex].messages;
       newDb.chats[chatIndex].messages.push(req.body);
     }
-    io.emit('new-message', {
+    io.to(`chat${chatId}`).emit('new-message', {
       id: req.body.userId,
       newMessage: req.body
     });
