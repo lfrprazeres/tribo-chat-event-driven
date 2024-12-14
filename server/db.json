@@ -41,6 +41,14 @@
           "id": 1
         }
       ]
+    },
+    {
+      "name": "joao",
+      "email": "joao@email.com",
+      "password": "123",
+      "imagem": "https://avatars.githubusercontent.com/u/20377093",
+      "chats": [],
+      "id": 3
     }
   ],
   "chats": [
