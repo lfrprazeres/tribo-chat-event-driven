@@ -6,6 +6,7 @@ const useUser = () => {
   const { data, setData } = useContext(userContext);
 
   function login(user) {
+    socket.emit('save-id', user.id);
     setData({ ...user, isLogged: true });
   }
 

@@ -27,8 +27,7 @@
           ],
           "type": "chat",
           "unreadMessages": 0,
-          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1",
-          "messages": []
+          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1"
         }
       ],
       "image": "https://avatars.githubusercontent.com/u/94445061"
@@ -36,7 +35,7 @@
     {
       "name": "Marcia",
       "email": "marcia@email.com",
-      "isLogged": true,
+      "isLogged": false,
       "password": "123",
       "id": 2,
       "image": "https://avatars.githubusercontent.com/u/38763801",
@@ -79,8 +78,8 @@
             1,
             3
           ],
-          "unreadMessages": 0,
           "type": "chat",
+          "unreadMessages": 1,
           "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1"
         },
         {
@@ -90,12 +89,14 @@
             2,
             3
           ],
-          "unreadMessages": 0,
           "type": "chat",
-          "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c"
+          "unreadMessages": 0,
+          "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c",
+          "messages": []
         }
       ],
-      "id": 3
+      "id": 3,
+      "isLogged": true
     }
   ],
   "chats": [
@@ -115,7 +116,24 @@
         1,
         3
       ],
-      "messages": []
+      "messages": [
+        {
+          "userId": 3,
+          "text": "oi Luiz",
+          "name": "joao",
+          "date": "15:54",
+          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1",
+          "otherUserId": 1
+        },
+        {
+          "userId": 1,
+          "text": "oi João",
+          "name": "Luiz",
+          "date": "15:54",
+          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1",
+          "otherUserId": 3
+        }
+      ]
     },
     {
       "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c",
