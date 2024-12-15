@@ -16,7 +16,8 @@
           ],
           "type": "chat",
           "unreadMessages": 0,
-          "id": "e3162a9b-d6cb-4857-ac9f-9f1735786786"
+          "id": "e3162a9b-d6cb-4857-ac9f-9f1735786786",
+          "messages": []
         },
         {
           "name": "joao",
@@ -26,7 +27,8 @@
           ],
           "type": "chat",
           "unreadMessages": 0,
-          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1"
+          "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1",
+          "messages": []
         }
       ],
       "image": "https://avatars.githubusercontent.com/u/94445061"
@@ -46,9 +48,21 @@
             1,
             2
           ],
-          "unreadMessages": 0,
           "type": "chat",
-          "id": "e3162a9b-d6cb-4857-ac9f-9f1735786786"
+          "unreadMessages": 0,
+          "id": "e3162a9b-d6cb-4857-ac9f-9f1735786786",
+          "messages": []
+        },
+        {
+          "name": "joao",
+          "participants": [
+            2,
+            3
+          ],
+          "type": "chat",
+          "unreadMessages": 0,
+          "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c",
+          "messages": []
         }
       ]
     },
@@ -68,6 +82,17 @@
           "unreadMessages": 0,
           "type": "chat",
           "id": "0a0e275f-2c07-443c-8642-9b5c6f4686c1"
+        },
+        {
+          "name": "Marcia",
+          "image": "https://avatars.githubusercontent.com/u/38763801",
+          "participants": [
+            2,
+            3
+          ],
+          "unreadMessages": 0,
+          "type": "chat",
+          "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c"
         }
       ],
       "id": 3
@@ -88,6 +113,15 @@
       "type": "chat",
       "participants": [
         1,
+        3
+      ],
+      "messages": []
+    },
+    {
+      "id": "2a410c3a-e8ae-4fe7-99b5-d3c13b3caf9c",
+      "type": "chat",
+      "participants": [
+        2,
         3
       ],
       "messages": []
